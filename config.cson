@@ -1,0 +1,24 @@
+'exception-reporting':
+  'userId': 'e1e70b55-c3f9-2874-7566-cca4a2953b72'
+'release-notes':
+  'viewedVersion': '0.69.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'ca3551c77f1be42949463b00b8273bb8984272b8'
+'editor':
+  'fontFamily': 'menlo'
+  'showIndentGuide': true
+  'fontSize': 13
+'core':
+  'themes': [
+    'atom-light-ui'
+    'fizzy'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+  'audioBeep': false
+  'disabledPackages': []
