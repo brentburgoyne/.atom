@@ -18,9 +18,5 @@
 #
 
 
-'body':
-  # Vimish movement
-  'cmd-ctrl-h': 'core:move-left'
-  'cmd-ctrl-j': 'core:move-down'
-  'cmd-ctrl-k': 'core:move-up'
-  'cmd-ctrl-l': 'core:move-right'
+'.vim-mode.command-mode:not(.mini)':
+  '/ w': 'core:save'

@@ -1,7 +1,7 @@
 'exception-reporting':
   'userId': 'e1e70b55-c3f9-2874-7566-cca4a2953b72'
 'release-notes':
-  'viewedVersion': '0.69.0'
+  'viewedVersion': '0.95.0'
 'welcome':
   'showOnStartup': false
 'metrics':
@@ -9,16 +9,14 @@
 'editor':
   'fontFamily': 'menlo'
   'showIndentGuide': true
-  'fontSize': 13
+  'softWrap': true
+  'fontSize': 12
 'core':
   'themes': [
-    'atom-light-ui'
-    'fizzy'
+    'atom-dark-ui'
+    'base16-tomorrow-dark-theme'
   ]
-  'ignoredNames': [
-    '.git'
-    '.svn'
-    '.DS_Store'
+  'disabledPackages': [
+    'metrics'
   ]
   'audioBeep': false
-  'disabledPackages': []

@@ -3,7 +3,7 @@
 # Atom snippets allow you to enter a simple prefix in the editor and hit tab to
 # expand the prefix into a larger code block with templated values.
 #
-# You can create a new snippet in this file by typing "snip" and then hitting
+# You can create a new snippet in this file by typing 'snip' and then hitting
 # tab.
 #
 # An example CoffeeScript snippet to expand log to console.log:
@@ -13,3 +13,15 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+
+'.source.js':
+  'Doc Block':
+    'prefix': '*'
+    'body': '/**\n * ${1:comment}\n */\n\n'
+  'Module dependencies comment':
+    'prefix': 'md'
+    'body': '/**\n * Module dependencies.\n */\n\n'
+  'Expose':
+    'prefix': 'ex'
+    'body': '/**\n * Expose `${1:object}`.\n */\n\nmodule.exports =
+      ${2:object};'
